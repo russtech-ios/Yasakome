@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5395FAC02DC70D6400301FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5395FABC2DC70D6400301FB6 /* Assets.xcassets */; };
+		5395FAC12DC70D6400301FB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395FABD2DC70D6400301FB6 /* ContentView.swift */; };
+		5395FAC22DC70D6400301FB6 /* YasakomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395FABE2DC70D6400301FB6 /* YasakomeApp.swift */; };
+		5395FAC52DC70D6800301FB6 /* YasakomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395FAC32DC70D6800301FB6 /* YasakomeTests.swift */; };
+		5395FAC92DC70D6C00301FB6 /* YasakomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395FAC62DC70D6C00301FB6 /* YasakomeUITests.swift */; };
+		5395FACA2DC70D6C00301FB6 /* YasakomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395FAC72DC70D6C00301FB6 /* YasakomeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5395FAA02DC6FCFA00301FB6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +36,13 @@
 		5395FA922DC6FCF900301FB6 /* Yasakome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yasakome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5395FA9F2DC6FCFA00301FB6 /* YasakomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YasakomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5395FAA92DC6FCFA00301FB6 /* YasakomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YasakomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5395FABC2DC70D6400301FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5395FABD2DC70D6400301FB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5395FABE2DC70D6400301FB6 /* YasakomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YasakomeApp.swift; sourceTree = "<group>"; };
+		5395FAC32DC70D6800301FB6 /* YasakomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YasakomeTests.swift; sourceTree = "<group>"; };
+		5395FAC62DC70D6C00301FB6 /* YasakomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YasakomeUITests.swift; sourceTree = "<group>"; };
+		5395FAC72DC70D6C00301FB6 /* YasakomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YasakomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5395FA942DC6FCF900301FB6 /* Yasakome */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Yasakome;
-			sourceTree = "<group>";
-		};
-		5395FAA22DC6FCFA00301FB6 /* YasakomeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = YasakomeTests;
-			sourceTree = "<group>";
-		};
-		5395FAAC2DC6FCFA00301FB6 /* YasakomeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = YasakomeUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5395FA8F2DC6FCF900301FB6 /* Frameworks */ = {
@@ -75,9 +72,9 @@
 		5395FA892DC6FCF900301FB6 = {
 			isa = PBXGroup;
 			children = (
-				5395FA942DC6FCF900301FB6 /* Yasakome */,
-				5395FAA22DC6FCFA00301FB6 /* YasakomeTests */,
-				5395FAAC2DC6FCFA00301FB6 /* YasakomeUITests */,
+				5395FABF2DC70D6400301FB6 /* Yasakome */,
+				5395FAC42DC70D6800301FB6 /* YasakomeTests */,
+				5395FAC82DC70D6C00301FB6 /* YasakomeUITests */,
 				5395FA932DC6FCF900301FB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +87,33 @@
 				5395FAA92DC6FCFA00301FB6 /* YasakomeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5395FABF2DC70D6400301FB6 /* Yasakome */ = {
+			isa = PBXGroup;
+			children = (
+				5395FABC2DC70D6400301FB6 /* Assets.xcassets */,
+				5395FABD2DC70D6400301FB6 /* ContentView.swift */,
+				5395FABE2DC70D6400301FB6 /* YasakomeApp.swift */,
+			);
+			path = Yasakome;
+			sourceTree = "<group>";
+		};
+		5395FAC42DC70D6800301FB6 /* YasakomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5395FAC32DC70D6800301FB6 /* YasakomeTests.swift */,
+			);
+			path = YasakomeTests;
+			sourceTree = "<group>";
+		};
+		5395FAC82DC70D6C00301FB6 /* YasakomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5395FAC62DC70D6C00301FB6 /* YasakomeUITests.swift */,
+				5395FAC72DC70D6C00301FB6 /* YasakomeUITestsLaunchTests.swift */,
+			);
+			path = YasakomeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +130,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5395FA942DC6FCF900301FB6 /* Yasakome */,
 			);
 			name = Yasakome;
 			packageProductDependencies = (
@@ -130,9 +151,6 @@
 			dependencies = (
 				5395FAA12DC6FCFA00301FB6 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				5395FAA22DC6FCFA00301FB6 /* YasakomeTests */,
-			);
 			name = YasakomeTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +170,6 @@
 			);
 			dependencies = (
 				5395FAAB2DC6FCFA00301FB6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				5395FAAC2DC6FCFA00301FB6 /* YasakomeUITests */,
 			);
 			name = YasakomeUITests;
 			packageProductDependencies = (
@@ -212,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5395FAC02DC70D6400301FB6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5395FAC12DC70D6400301FB6 /* ContentView.swift in Sources */,
+				5395FAC22DC70D6400301FB6 /* YasakomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5395FAC52DC70D6800301FB6 /* YasakomeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5395FAC92DC70D6C00301FB6 /* YasakomeUITests.swift in Sources */,
+				5395FACA2DC70D6C00301FB6 /* YasakomeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
