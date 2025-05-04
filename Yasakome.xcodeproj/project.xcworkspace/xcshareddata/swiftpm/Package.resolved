@@ -1,0 +1,24 @@
+{
+  "originHash" : "ba9d5892a8d8ec600fa74b4a7c4e9c9e83759e573a1e5adca3f4d504ab79325f",
+  "pins" : [
+    {
+      "identity" : "swiftformat",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicklockwood/SwiftFormat",
+      "state" : {
+        "revision" : "aa34bc80ed4cd69af391c912741594901d57c010",
+        "version" : "0.55.6"
+      }
+    },
+    {
+      "identity" : "swiftlintplugins",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SimplyDanny/SwiftLintPlugins",
+      "state" : {
+        "revision" : "8545ddf4de043e6f2051c5cf204f39ef778ebf6b",
+        "version" : "0.59.1"
+      }
+    }
+  ],
+  "version" : 3
+}
